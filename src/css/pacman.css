@@ -10,15 +10,15 @@ body {
 #endDisplay, #score , #life {
 	font-family: "Courier New";
 }
-#pacman, #redGhost, #blueGhost, #pinkGhost, #orangeGhost, .cherry , 
+#pacman, #redGhost, #blueGhost, #pinkGhost, #orangeGhost, .cherry ,
 #brown, #dancer, #movingBlue, #movingPink {
 	background-size: contain;
 }
-#pacman, #redGhost, #blueGhost , #pinkGhost, #orangeGhost, 
+#pacman, #redGhost, #blueGhost , #pinkGhost, #orangeGhost,
 #brown, #dancer, #movingBlue, #movingPink {
 	position: absolute;
 }
-#pacman, .brick, .empty , .cherry , #redGhost, #blueGhost, #pinkGhost, #orangeGhost, 
+#pacman, .brick, .empty , .cherry , #redGhost, #blueGhost, #pinkGhost, #orangeGhost,
 #brown, #dancer, #movingBlue, #movingPink {
 	width: 20px;
 	height: 20px;
@@ -26,11 +26,11 @@ body {
 	vertical-align: top;
 }
 #endDisplay {
-	position: absolute; 
-	left: 90px; 
+	position: absolute;
+	left: 90px;
 	top: 120px;
 	width: 260px;
-	border: 10px solid yellow; 
+	border: 10px solid yellow;
 	margin: 10px;
 	font-size: 48px;
 	color: yellow;
@@ -52,13 +52,13 @@ body {
 }
 .empty {
 	background-color: transparent;
-	text-align: center; 
+	text-align: center;
 }
 .cherry {
-	background-image: url("cherry.png");
+	background-image: url("./../img/cherry.png");
 }
 #pacman {
-	background-image: url('pacman.gif');
+	background-image: url('./../img/pacman.gif');
 }
 #score, #life {
 	border: 1px solid white;
@@ -73,27 +73,27 @@ body {
 	vertical-align: top;
 }
 #redGhost {
-	background-image: url("red_ghost.png");
+	background-image: url("./../img/red_ghost.png");
 }
 #blueGhost {
-	background-image: url("blue_ghost.png");
+	background-image: url("./../img/blue_ghost.png");
 }
 #pinkGhost {
-	background-image: url("pink_ghost.png");
+	background-image: url("./../img/pink_ghost.png");
 }
 #orangeGhost {
-	background-image: url("orange_ghost.png");
+	background-image: url("./../img/orange_ghost.png");
 }
 #brown {
-	background-image: url("brown.gif");
+	background-image: url("./../img/brown.gif");
 }
 #dancer {
-	background-image: url("dancer.gif");
+	background-image: url("./../img/dancer.gif");
 
 }
 #movingBlue {
-	background-image: url("movingBlue.gif");
+	background-image: url("./../img/movingBlue.gif");
 }
 #movingPink {
-	background-image: url("movingPink.gif");
+	background-image: url("./../img/movingPink.gif");
 }
